@@ -18,7 +18,7 @@ const UserComponent = ()=>{
 
         axios({
             method:'GET',
-            url:'http://localhost:9000/users'
+            url:'/api/users'
         })
         .then((response)=>
         {
